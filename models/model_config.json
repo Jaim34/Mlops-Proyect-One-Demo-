@@ -1,0 +1,8 @@
+{
+  "name": "debt-trend-baseline",
+  "algorithm": "sklearn.linear_model.LinearRegression",
+  "features": ["record_date_ordinal"],
+  "target": "tot_pub_debt_out_amt",
+  "data_source": "U.S. Treasury Fiscal Data API: debt_to_penny",
+  "purpose": "Educational baseline only; not a financial risk assessment"
+}
